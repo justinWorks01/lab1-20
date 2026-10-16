@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f5;
+  color: #1b2733;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #d9e0e8;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  color: #66758a;
+  margin-top: 8px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #c5cfda;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #14304a;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 8px 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #d9e0e8;
+  white-space: nowrap;
+}
+
+td button {
+  margin-top: 0;
+  padding: 4px 8px;
+  font-size: 13px;
+}
+
+td select {
+  width: auto;
+  padding: 4px;
+}
+
+#nav button {
+  margin: 0 6px 8px 0;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+#nav button.active {
+  background: #c9a227;
+  color: #1b2733;
+}
+
+.paid {
+  color: #1d7a4a;
+  font-weight: bold;
+}
+
+.balance {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+#receipt,
+.receipt {
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+.hint {
+  font-size: 13px;
+  color: #66758a;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .box {
+    border: 0;
+  }
+}
